@@ -2,6 +2,12 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
+    --brand-primary-color: #ee4d2d;
+    --brand-primary-light-color: rgba(255,87,34,0.1);
+
+    --header-height: 120px;
+    --navbar-height: 26.8px;
+    --header-with-search: calc(var(--header-height) - var(--navbar-height))
 }
 
 * {
@@ -29,4 +35,15 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
