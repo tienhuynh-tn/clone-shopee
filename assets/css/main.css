@@ -53,6 +53,10 @@
     color: var(--white-color);
 }
 
+.header__navbar-icon-link:nth-child(2) {
+    margin-left: 3px;
+}
+
 .header__navbar-icon {
     font-size: 16px;
     margin: 0 5px;
@@ -115,6 +119,7 @@
     height: 350px;
     background-color: var(--white-color);
     color: rgba(0,0,0,.8);
+    border-radius: 2px;
     top: 110%;
     right: 0;
     margin-top: 10px;
@@ -122,7 +127,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transform-origin: calc(100% - 20px) top;
+    transform-origin: calc(100% - 32px) top;
     animation: headerNotifyGrowth ease-in .2s;
     will-change: opacity, transform;
     cursor: default;
@@ -214,6 +219,11 @@
 
 .header__logo {
     width: 202px;
+}
+
+.header__logo-link {
+    color: transparent;
+    text-decoration: none;
 }
 
 .header__logo-img {
@@ -397,5 +407,37 @@
     font-size: 1.4rem;
     color: rgba(0,0,0,.8);
     cursor: text;
+}
+
+/* Banner */
+.home-banner {
+    margin-top: 24px;
+}
+
+.main-banner {
+    padding-right: 2px;
+}
+
+.main-banner__list {
+    padding: 0;
+    margin: 0;
+}
+
+.main-banner__items {
+    list-style-type: none;
+}
+
+.main-banner__items-img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.right-banner-wrapper {
+    padding-left: 2px;
+}
+
+.sub-banner__img {
+    width: 100%;
+    border-radius: 2px;
 }
 
