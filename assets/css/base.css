@@ -53,6 +53,12 @@ html {
     width: calc(100% / 12 * 4);
 }
 
+.grid__column-6 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12 * 6);
+}
+
 .grid__column-8 {
     padding-left: 12px;
     padding-right: 12px;

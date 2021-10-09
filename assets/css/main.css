@@ -417,10 +417,6 @@
 }
 
 /* Banner */
-.home-banner {
-    
-}
-
 .main-banner {
     padding-right: 2px;
     margin-top: 32px;
@@ -486,8 +482,72 @@
 
 .welcome-banner {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .welcome-banner__img {
     width: 100%;
+}
+
+/* Month Sale */
+.month-sale {
+    height: 448px;
+    background-color: #123366;
+    position: relative;
+}
+
+
+.month-sale__background {
+    position: absolute;
+    width: 1168px;
+    height: 386px;
+    background-color: #ffebda;
+    z-index: 1;
+    right: 16px;
+    top: 46px;
+    border-radius: 30px;
+}
+
+.month-sale__header {
+    position: absolute;
+    z-index: 2;
+    top: 16px;
+    right: 288px;
+}
+
+.month-sale__product {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 1168px;
+    top: 100px;
+    right: 16px;
+    z-index: 3;
+}
+
+.month-sale__best {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.month-sale__best-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.month-sale__best-product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.month-sale__best-items {
+    background-color: #fff;
+    padding: 12px;
+}
+
+.month-sale__best-img {
+    width: 162px;
+    height: 162px;
 }
