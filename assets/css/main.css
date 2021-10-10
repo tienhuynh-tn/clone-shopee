@@ -1,6 +1,9 @@
 .header {
     height: 120px;
     background-image: linear-gradient(-180deg, #f53d2d, #f63);
+    position: fixed;
+    z-index: 500;
+    width: 100%;
 }
 
 .header__navbar {
@@ -413,13 +416,13 @@
     background-image: url('../img/background.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    
+    background-position: 0 120px;
+    padding-top: 152px;
 }
 
 /* Banner */
 .main-banner {
     padding-right: 2px;
-    margin-top: 32px;
 }
 
 .main-banner__list {
@@ -438,7 +441,6 @@
 
 .right-banner-wrapper {
     padding-left: 2px;
-    margin-top: 32px;
 }
 
 .sub-banner__img {
