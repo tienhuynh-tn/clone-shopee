@@ -12,7 +12,7 @@ This is a cloned website of [Shopee Việt Nam](https://shopee.vn/)
 ![Laptop Demo 1](./assets/img/demo/laptop-demo-1.png)
 ![Laptop Demo 2](./assets/img/demo/laptop-demo-2.png)
 
-### Links
+### :round_pushpin: Links
 - Solution URL: [Github](https://github.com/tienhuynh-tn/clone-shopee)
 - Live Site URL: [Github Page](https://tienhuynh-tn.github.io/clone-shopee/)
 
