@@ -573,22 +573,6 @@
     height: 162px;
 }
 
-.month-sale__best-price {
-    color: rgb(238, 78, 46);
-    font-size: 18px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    text-transform: uppercase;
-}
-
-.currency-unit {
-    text-transform: lowercase;
-    text-decoration: underline;
-    padding: none;
-    vertical-align: text-top;
-    font-size: 14px;
-}
-
 /* Main Category */
 .main-category {
     display: flex;
@@ -635,4 +619,122 @@
     font-size: 14px;
     text-transform: capitalize;
     padding: 0 5px;
+}
+
+/* Flash Sale */
+.flash-sale {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.flash-sale__heading {
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    padding: 20px;
+    position: relative;
+}
+
+.flash-sale__header {
+    width: 10%;
+    margin-right: 20px;
+}
+
+.flash-sale__countdown {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flash-sale__countdown-unit  {
+    background-color: #000;
+    color: #fff;
+    margin: 2px;
+    display: flex;
+    padding: 2px;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: context-menu;
+}
+
+.flash-sale__countdown-hour {
+
+}
+
+.flash-sale__countdown-minute {
+
+}
+
+.flash-sale__countdown-second {
+
+}
+
+.flash-sale__coundown-first-digit {
+    padding: 1px;
+}
+
+.flash-sale__coundown-second-digit {
+    padding: 1px;
+}
+
+.flash-sale__view-all {
+    text-decoration: none;
+    color: var(--brand-primary-color);
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.flash-sale__product {
+    margin: 6px 10px;
+}
+
+.flash-sale__item {
+    text-align: center;
+}
+
+.flash-sale__item-link {
+    text-decoration: none;
+}
+
+.flash-sale__item-img {
+    width: 100%;
+}
+
+.flass-sale__item-progress {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    background-image: url('../img/flash-sale/progress-bar.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 15px;
+    text-transform: uppercase;
+}
+
+.flass-sale__progress-state {
+    position: absolute;
+    background-color: #ffbda6;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    border-radius: 0 16px 16px 0;
+}
+
+.flass-sale__progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3rem;
+    z-index: 10;
+    color: #fff;
 }

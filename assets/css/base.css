@@ -75,3 +75,19 @@ html {
         opacity: 1;
     }
 }
+
+.price {
+    color: rgb(238, 78, 46);
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.currency-unit {
+    text-transform: lowercase;
+    text-decoration: underline;
+    padding: none;
+    vertical-align: text-top;
+    font-size: 14px;
+}
