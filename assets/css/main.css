@@ -519,6 +519,7 @@
     position: absolute;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     width: 1168px;
     top: 100px;
     right: 16px;
@@ -526,7 +527,6 @@
 }
 
 .month-sale__best {
-    flex: 1;
     display: flex;
     flex-direction: column;
 }
@@ -534,6 +534,19 @@
 .month-sale__best-heading {
     display: flex;
     justify-content: space-between;
+    color: var(--brand-primary-color);
+    padding: 16px;
+}
+
+.month-sale__best-header {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.month-sale__more a {
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--brand-primary-color);
 }
 
 .month-sale__best-product {
@@ -544,10 +557,32 @@
 
 .month-sale__best-items {
     background-color: #fff;
-    padding: 12px;
+    margin: 2px;
+    padding: 12px 12px 12px 12px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .month-sale__best-img {
     width: 162px;
     height: 162px;
+}
+
+.month-sale__best-price {
+    color: rgb(238, 78, 46);
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.currency-unit {
+    text-transform: lowercase;
+    text-decoration: underline;
+    padding: none;
+    vertical-align: text-top;
+    font-size: 14px;
 }
