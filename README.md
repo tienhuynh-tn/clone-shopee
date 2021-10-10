@@ -9,7 +9,8 @@ This is a cloned website of [Shopee Việt Nam](https://shopee.vn/)
 `HTML` `CSS` `JavaScript`
 
 ## :camera_flash:	 Some preview images
-![Header]()
+![Laptop Demo 1](./assets/img/demo/laptop-demo-1.png)
+![Laptop Demo 2](./assets/img/demo/laptop-demo-2.png)
 
 ### Links
 - Solution URL: [Github](https://github.com/tienhuynh-tn/clone-shopee)
